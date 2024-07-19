@@ -1,0 +1,13 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite">
+    <test name="MyTests">
+        <classes>
+            <class name="framework.Tests.LoginPageTest">
+                    <methods>
+                       <exclude name="Test2"/>
+                    </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
