@@ -1,0 +1,9 @@
+name: My first Action
+on: [push]
+
+jobs:
+  hello-action:
+    name: 🚀 hello my first action
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello word"
