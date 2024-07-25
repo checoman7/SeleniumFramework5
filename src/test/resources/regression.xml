@@ -2,8 +2,9 @@
 <suite name="MyTestSuite">
     <test name="MyTests">
         <groups>
-            <run>
-                <include name="regression"/>
+            <run >
+                <include name="regression" />
+
             </run>
         </groups>
         <classes>
