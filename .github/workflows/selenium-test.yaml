@@ -20,9 +20,9 @@ jobs:
           java-version: '11'
 
       - name: Set up Chrome
-        steps:
-          - uses: browser-actions/setup-chrome@v1
-          - run: chrome --version
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: 'latest'
           
       - name: Run Tests
         run: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/regression.xml
