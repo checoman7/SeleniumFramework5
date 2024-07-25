@@ -19,17 +19,13 @@ jobs:
         with:
           java-version: '11'
 
-      - name: Set up Selenium with Chrome
-        uses: SeleniumHQ/setup-selenium@v4
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@v1
         with:
-          browser: chrome
-          # Optionally specify versions
-          # browserVersion: latest
-          # driverVersion: latest
+          chrome-version: 'latest'
 
       - name: Install Maven
         run: sudo apt-get install -y maven
-
           
       - name: Run Tests
         run: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/regression.xml

@@ -54,7 +54,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG./Users/user/IdeaProjects/SeleniumFramework5/src/test/resources/regression.xml">
+  <component name="RunManager" selected="TestNG.LoginPageTest.logInValidCredentials">
     <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFramework5" />
       <extension name="coverage">
@@ -130,9 +130,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginPageTest.logInValidCredentials" />
         <item itemvalue="TestNG./Users/user/IdeaProjects/SeleniumFramework5/src/test/resources/regression.xml" />
         <item itemvalue="TestNG./Users/user/IdeaProjects/SeleniumFramework5/src/test/resources/testng.xml" />
-        <item itemvalue="TestNG.LoginPageTest.logInValidCredentials" />
         <item itemvalue="TestNG.LoginPageTest.logInHappyPath" />
         <item itemvalue="TestNG.LoginPageTest" />
       </list>
