@@ -25,4 +25,4 @@ jobs:
           chrome-version: 'latest'
           
       - name: Run Tests
-        run: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/regression.xml
+        run: mvn test
