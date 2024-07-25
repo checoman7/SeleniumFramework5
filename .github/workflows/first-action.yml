@@ -1,5 +1,8 @@
-name: My first Action
-on: [push]
+name: My first Action Event Push in specific branch
+on:
+  push:
+    branches:
+      - feature/my-first-action
 
 jobs:
   hello-action:
