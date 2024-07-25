@@ -1,0 +1,9 @@
+name: Print Hello When PR
+on: [pull_request]
+
+jobs:
+  run-hello:
+    name: 😅 Print Hello
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello word"
