@@ -1,0 +1,11 @@
+name: Print Hello When schedule
+on:
+  schedule:
+    - "5 * * * *"
+
+jobs:
+  run-hello:
+    name: 😅 Print Hello When Schedule
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello word"
