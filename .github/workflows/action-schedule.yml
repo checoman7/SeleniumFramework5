@@ -1,7 +1,7 @@
 name: Print Hello When schedule
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   run-hello-schedule:
