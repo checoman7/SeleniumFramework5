@@ -4,7 +4,7 @@ on:
     - cron: "5 * * * *"
 
 jobs:
-  run-hello:
+  run-hello-schedule:
     name: 😅 Print Hello When Schedule
     runs-on: ubuntu-latest
     steps:
