@@ -1,0 +1,26 @@
+name: Print Hello When schedule
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: choice
+        description: Select your env
+        required: true
+        options:
+          - Dev
+          - Stage
+          - Prod
+
+jobs:
+  run-hello:
+    name: 😅 Print Hello When Schedule
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello word 1 $environment"
+      - run: echo "hello word 2"
+
+  run-hello-2:
+    name: 😅 Print Hello 3
+    runs-on: self-hosted
+    steps:
+      - run: echo "hello word 3"
